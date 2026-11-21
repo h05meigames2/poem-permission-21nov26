@@ -8,7 +8,7 @@ named by MAKEFUN_OUTPUT_DIR when run locally:
     mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 
 The poem is a constant, so every run writes exactly the same bytes. The
-text is UTF-8, 195 characters (Unicode code points, well inside the gate's
+text is UTF-8, 193 characters (Unicode code points, well inside the gate's
 1-280 range), not only white space, and ends without a trailing newline:
 the judge reads exactly the bytes written, so the file holds the poem
 and nothing else.
